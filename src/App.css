@@ -8,7 +8,7 @@
 
 body{
   font-family: "Roboto", sans-serif;
-  background-color: #858484;
+  background-color: #f8f8f8;
 }
 
 .container{
@@ -36,6 +36,10 @@ body{
   cursor: pointer;
   background-color: #1eb2a6;
   color: #fff;
+}
+
+.row{
+  width: 50%;
 }
 
 button{
