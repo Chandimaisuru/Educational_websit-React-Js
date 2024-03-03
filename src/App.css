@@ -45,3 +45,28 @@ body{
 button{
   border: none;
 }
+
+.heading{
+  text-align: center;
+  padding: 40px 0;
+}
+
+.heading h3 {
+  color: #1eb2a6;
+  font-weight:900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 45px;
+
+}
+
+.heading h1{
+  font-size: 75px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+
+p{
+  line-height: 30px;
+  font-size: 18px;
+}

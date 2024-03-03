@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Head from './Head'
 import './header.css'
-import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+import { Link } from 'react-router-dom/cjs/react-router-dom';
 
 function Header() {
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.css'
+import Title from '../../common/title/Title'
 
 function Hero() {
   return (
@@ -11,7 +12,9 @@ function Hero() {
 
             <div className="row">
 
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae veniam possimus cum ex quisquam, culpa soluta voluptas dolorem distinctio. Odio, iste cum tempora est quae, deserunt ea voluptatibus obcaecati, labore natus aspernatur perferendis facere fugit! Assumenda non voluptas autem in.</p>
+              <Title subtitle='WELCOME TO SYSCO' title='Best Online Education'/>
+
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae veniam possimus cum ex quisquam, culpa soluta voluptas dolorem distinctio. Odio, iste cum tempora est quae, .</p>
 
                 <button className='primary-btn'>
                     GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
@@ -24,6 +27,8 @@ function Hero() {
          </div>
         
         </section> 
+
+        {/* <div className='margin'></div> */}
 
    </>
   )
