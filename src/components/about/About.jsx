@@ -1,8 +1,15 @@
 import React from 'react'
+import Back from '../common/back/Back'
+import AboutCard from './AboutCard'
 
 function About() {
   return (
-    <div>About</div>
+    <>
+
+     <Back title='About Us'/>
+     <AboutCard/>
+    
+    </>
   )
 }
 

@@ -9,6 +9,7 @@
 body{
   font-family: "Roboto", sans-serif;
   background-color: #f8f8f8;
+  position: relative;
 }
 
 .container{
@@ -69,4 +70,50 @@ button{
 p{
   line-height: 30px;
   font-size: 18px;
+}
+
+.back{
+  background-image: url("../public/images/back.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+
+  color: #fff;
+  text-align: center;
+}
+.back_sub{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.back h1{
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.back h2{
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.margin{
+margin-top: 64.3%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 30px;
+
+}
+.flex{
+  display:flex;
 }

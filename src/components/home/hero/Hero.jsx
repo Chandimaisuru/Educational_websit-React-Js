@@ -28,7 +28,7 @@ function Hero() {
         
         </section> 
 
-        {/* <div className='margin'></div> */}
+        <div className='margin'></div>
 
    </>
   )
