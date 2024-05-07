@@ -72,3 +72,22 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+    .aboutHome{
+        margin-top: 50%;
+    }
+
+    .aboutHome .container{
+        flex-direction: column-reverse;
+    }
+
+    .aboutHome .row{
+        width: 100%;
+    }
+
+    .awrapper{
+       height: 50vh; 
+    }
+
+}
