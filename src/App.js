@@ -8,6 +8,7 @@ import {Route, BrowserRouter as Router, Switch} from 'react-router-dom/cjs/react
 // 
 
 import About from './components/about/About'
+import CourseHome from './components/allcourses/CourseHome'
 
 
 
@@ -24,7 +25,8 @@ function App() {
 
        <Switch>
        <Route path='/' exact component={Home}/>
-        <Route path='/about' exact component={About}/>
+       <Route path='/about' exact component={About}/>
+       <Route path='/courses' exact component={CourseHome}/>
        
        </Switch>
       </Router>
