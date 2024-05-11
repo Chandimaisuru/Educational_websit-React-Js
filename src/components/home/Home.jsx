@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './hero/Hero'
 import AboutCard from '../about/AboutCard'
 import HAbout from './HAbout'
+import Test from './testimonial/Test'
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
         <Hero/>
         <AboutCard/>
         <HAbout/>
+        <Test/>
         </>
     )
 }

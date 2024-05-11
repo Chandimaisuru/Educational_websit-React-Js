@@ -1,6 +1,7 @@
 import React from 'react'
 import {coursesCard} from '../../dummydata'
 import Title from "../common/title/Title"
+import OnlineCourses from '../allcourses/OnlineCourses'
 
 function HAbout() {
   return (
@@ -60,6 +61,7 @@ function HAbout() {
        </div>
         </div>
     </section>
+    <OnlineCourses/>
     </>
   )
 }
