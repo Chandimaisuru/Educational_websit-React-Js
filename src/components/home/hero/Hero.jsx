@@ -12,9 +12,9 @@ function Hero() {
 
             <div className="row">
 
-              <Title subtitle='WELCOME TO SYSCO' title='Best Online Education'/>
+              <Title subtitle='WELCOME TO SmartLearn' title='Best Online Education'/>
 
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae veniam possimus cum ex quisquam, culpa soluta voluptas dolorem distinctio. Odio, iste cum tempora est quae, .</p>
+             <p>SmartLearn is an innovative educational platform designed to provide personalized learning experiences for students of all ages. Leveraging advanced technology and adaptive learning techniques. </p>
 
                 <button className='primary-btn'>
                     GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
@@ -28,7 +28,7 @@ function Hero() {
         
         </section> 
 
-        <div className='margin'></div>
+        <div className='margin-h'></div>
 
    </>
   )

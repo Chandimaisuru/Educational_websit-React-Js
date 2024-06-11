@@ -9,7 +9,7 @@ function Head() {
 
                 <div className='logo'>
 
-                    <h1>SYSCO</h1>
+                    <h1>SmartLearn</h1>
                     <span>ONLINE EDUCATION & LEARNING</span>
                 </div>
 

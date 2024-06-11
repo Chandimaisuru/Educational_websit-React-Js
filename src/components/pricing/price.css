@@ -5,12 +5,14 @@
 }
 .price{
     margin-left: 85px;
+    margin-top: 140px;
 }
 
 .price h1{
     font-size: 50px;
     margin: 20px 0;
     color: #1eb2a6;
+    
 }
 
 .price h1 span {
@@ -26,12 +28,13 @@
 .faq .container{
     max-width: 70%;
     border-radius: 5px;
+    
 }
-.p
+
 
 .faq .box{
     background-color: #fff;
-    margin-bottom: 20px;
+    
 }
 
 .faq button{
