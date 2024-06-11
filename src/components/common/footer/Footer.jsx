@@ -34,14 +34,23 @@ function Footer() {
                 <h3>Quick Links</h3>
                 <ul>
                     <li>About Us</li>
-                    <li>About Us</li>
-                    <li>About Us</li>
-                    <li>About Us</li>
+                    <li>Team</li>
+                    <li>Pricing</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div className="box link">
+                <h3>Explore</h3>
+                <ul>
+                    <li>Journal</li>
+                    <li>Team</li>
+                    <li>Pricing</li>
+                    <li>Contact</li>
                 </ul>
             </div>
             <div className="bxo">
                 <h3>Recent Post</h3>
-                {blog.map((val) =>{
+                {blog.slice(0,3).map((val) =>{
                     return(
                     <div className="items flexSB">
                         <div className="img">
@@ -66,18 +75,21 @@ function Footer() {
                 <ul>
                     <li>
                         <i className='fa fa-map'>
-                            203 Fake ST.Mount View , San francisio california ,USA
+                           
                         </i>
+                        203 Fake ST.Mount View , San francisio california ,USA
                     </li>
                     <li>
                         <i className='fa fa-phone-alt'>
-                           +947 787 7890
+                           
                         </i>
+                        +947 787 7890
                     </li>
                     <li>
                         <i className='fa fa-paper-plane'>
-                           izzy@gmail.com
+                           
                         </i>
+                        izzy@gmail.com
                     </li>
                 </ul>
             </div>
